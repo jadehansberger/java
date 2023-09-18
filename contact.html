@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restraunt</title>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	  	 	<script>
+			$(document).ready(function(){
+				$(".btn").click(function(){
+					$(".input, .area").val("");
+			});
+		});
+	  </script>
     <link rel="stylesheet" href="stylesheet/styles.css" />
+	<link rel="stylesheet" href="stylesheet/styles2.css"/>
+
+	  
   </head>
-<body>
+<header>
     <nav class="navbar">
       <div class="navbar-container container">
           <input type="checkbox" name="" id="">
@@ -27,5 +37,25 @@
           <h1 class="logo">RS</h1>
       </div>
   </nav>
- </body>
+</header>
+<body>
+	<div class="contact">
+		<p>Contact Us</p>
+		<div class="login">
+			<input type="text" class="input" placeholder="Your Name">
+			<input type="text" class="input" placeholder="Email Adress">
+		</div>
+		
+		<div class="subject">
+			<input type="text" class="input" placeholder="Subject">
+		</div>
+		
+		<div class="msg">
+			<textarea class="area" placeholder="Leave Us a Message"></textarea>
+		</div>
+		<div class="btn">
+			Send Message
+		</div>
+	</div>
+	</body>
 </html>

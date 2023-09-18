@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	Padding:0;
+}
+
+body{
+	background-image: url("../images/pexels-adam-lukac-773958.jpg");
+	background-size: cover;
+	height: auto;
+}
+
+.contact{
+	width: 800px;
+	hight: 600px;
+	background: #FFFFFF;
+	opacity: 90%;
+	padding: 50px;
+	margin: 50px auto;
+	box-shadow: 0 0 20px; color: #261a15;
+}
+
+.contact p{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #491000;
+}
+
+.input, .area{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border: 2px solid #DFD9AB;
+	font-size: 14px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.area{
+	height: 200px
+}
+
+.btn{
+	width: 250px;
+	background: #DFD9AB;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	color: #491000;
+	text-transform: uppercase;
+	margin: 0 auto;
+	cursor: pointer;
+	border-radius: 100px;	
+}
+.input:focus,
+.msg .area:focus{
+	border: 2px solid #491000;
+}
