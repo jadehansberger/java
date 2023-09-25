@@ -20,9 +20,10 @@ body {
 }
 
 .logo {
-	width: 60px;
+	width: 70px;
 	
 }
+
 
 /* ///////////..utility classes../////////// */
 
@@ -31,7 +32,11 @@ body {
   width: 90%;
   margin: auto;
 }
+/*..........Home Page.............*/
 
+.coffee{
+	width: 100%;
+}
 
 /* ............/navbar/............ *
 
@@ -46,17 +51,16 @@ body {
   
   position: relative;
   width: 100%;
-  background: #491000;
-  color: #DFD9AB;
-  opacity: 0.85;
-  height: 80px;
+  background: #ebe0d3;
+  color: #ebe0d3;
+  height: 100px;
   z-index: 12;
 }
 
 .navbar-container {
   display: flex;
   justify-content: space-between;
-  height: 90px;
+  height: 100px;
   align-items: center;
 }
 
@@ -68,13 +72,13 @@ body {
 .menu-items li {
   list-style: none;
   margin-left: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0px;
   font-size: 1.2rem;
 }
 
 .menu-items a {
   text-decoration: none;
-  color: #DFD9AB;
+  color: #191312;
   font-weight: 500;
   transition: color 0.5s ease-in-out;
 }
@@ -212,3 +216,4 @@ body {
     font-weight: 500;
   }
 }
+

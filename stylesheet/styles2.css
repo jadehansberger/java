@@ -1,22 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{
+body{
 	margin: 0;
 	Padding:0;
-}
-
-body{
 	background-image: url("../images/pexels-adam-lukac-773958.jpg");
 	background-size: cover;
-	height: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
+
+
 
 .contact{
 	width: 800px;
 	hight: 600px;
 	background: #FFFFFF;
-	opacity: 90%;
+	opacity: 98%;
 	padding: 50px;
 	margin: 50px auto;
 	box-shadow: 0 0 20px; color: #261a15;
@@ -61,3 +62,18 @@ body{
 .msg .area:focus{
 	border: 2px solid #491000;
 }
+
+@media (max-width:600px){
+	.contact{
+		width: 300px;
+		height: 500px;
+	}
+	.area{
+		height: 85px;
+	}
+	.btn{
+		width: 150px
+		
+	}
+}
+	

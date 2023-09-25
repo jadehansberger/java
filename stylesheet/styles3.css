@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+	
+}
+
+.images-grid{
+	display: flex;
+	max-width: 100%;
+	margin: 0 auto;
+	
+}
+
+.grid-image{
+	display: block;
+	width: 100%;
+	
+}
+
+.card-group{
+	display: flex;
+	
+}
+
+.card{
+	margin: 20px;
+	margin-bottom: 100px;
+	
+}
