@@ -1,31 +1,19 @@
 @charset "utf-8";
 /* CSS Document */
 
-*{
-	box-sizing: border-box;
-	
+.backgroundpic{
+	background-image: url("../images/louis-hansel-e96ST3p7tn4-unsplash.jpg");
+	padding-bottom: 100px;
+	padding-top: 100px;
+	color: white;
+	text-shadow: 2px 2px 5px #883E24;
+	padding-left: 20px;
 }
+	
+	
 
-.images-grid{
-	display: flex;
-	max-width: 100%;
-	margin: 0 auto;
-	
-}
 
-.grid-image{
-	display: block;
-	width: 100%;
-	
-}
 
-.card-group{
-	display: flex;
-	
-}
 
-.card{
-	margin: 20px;
-	margin-bottom: 100px;
-	
-}
+
+

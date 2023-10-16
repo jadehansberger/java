@@ -57,6 +57,63 @@ body {
 	padding-bottom: 30px
 }
 
+/*............Location............*/
+
+.location{
+	color: #181211;
+	text-align: center;
+	margin: 30px;
+		
+}
+
+.adress{
+	color: #181211;
+	margin-left: 50px;
+}
+
+.map{
+	margin: 50px;
+
+}
+
+
+/*............Menu...........*/
+
+.menu{
+	margin: 50px;
+	padding: 30px;
+	text-align: center;
+	border: thin solid #EBE0D3;
+}
+
+.hot{
+	font-size:20px;
+	margin: 20px;
+}
+
+.iced{
+	font-size: 20px;
+	margin: 20px;
+}
+.h_line{
+	border-bottom: 1px solid #EBE0D3;;
+    width: 200px;
+    margin: auto;
+	margin-bottom: 20px;
+}
+.menuheader{
+	color: #181211;
+	margin-bottom: 50px;
+}
+
+.hotlist{
+	list-style-type: none;
+
+}
+
+.iceditems{
+	list-style-type: none;
+}
 /* desktop mode............/// */
 
 .navbar input[type="checkbox"],
@@ -215,7 +272,7 @@ body {
     transform: rotate(-35deg);
   }
 
-  /* ......./ food /......... */
+
 
  
 
